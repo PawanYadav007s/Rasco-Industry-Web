@@ -32,41 +32,46 @@
     </div>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="/">
-                <img src="https://www.rasco.co.in/images/logo.png" alt="Rasco Logo" class="logo">
-            </a>
-            
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="toggler-icon">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </span>
-            </button>
+  <!-- Navigation -->
+<nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="/">
+            <img src="https://www.rasco.co.in/images/logo.png" alt="Rasco Logo" class="logo">
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="toggler-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+        </button>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link btn-upload" href="upload.html">Upload Files</a>
-                    </li>
-                </ul>
-            </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Worksheets
+                    </a>
+                    <ul class="dropdown-menu animate slideIn">
+                        <li><a class="dropdown-item" href="https://drive.google.com/drive/folders/1H8p7xHPNATRtvGJLTjMWxt_y__3txRmN?usp=sharing">Demo Project Worksheet</a></li>
+                        <li><a class="dropdown-item" href="https://drive.google.com/drive/folders/1UWLiO0SavW9-z30v9xpIYmgnZX4iiilO?usp=sharing">Inprogress Project Worksheet</a></li>
+                        <li><a class="dropdown-item" href="https://drive.google.com/drive/folders/1H8p7xHPNATRtvGJLTjMWxt_y__3txRmN?usp=sharing">Completed Worksheet</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.rasco.co.in/">About</a>
+                </li>
+            </ul>
         </div>
-    </nav>
+    </div>
+</nav>
 
     <!-- Hero Section -->
     <section id="home" class="hero-section">
@@ -78,7 +83,7 @@
                         <p class="hero-text">Leading the way in industrial solutions with cutting-edge technology and expertise.</p>
                         <div class="hero-buttons">
                             <a href="#projects" class="btn btn-primary btn-lg">Our Projects</a>
-                            <a href="#contact" class="btn btn-outline-light btn-lg ms-3">Contact Us</a>
+                            <a href="#contacts" class="btn btn-outline-light btn-lg ms-3">Contact Us</a>
                         </div>
                     </div>
                     <div class="col-lg-6" data-aos="fade-left">
@@ -96,55 +101,105 @@
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section id="services" class="services-section">
-        <div class="container">
-            <div class="section-header text-center" data-aos="fade-up">
-                <h2>Our Services</h2>
-                <p>Comprehensive solutions for modern industries</p>
-            </div>
-            <div class="row g-4">
-                <!-- Service Card 1 -->
-                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-                    <div class="service-card">
-                        <div class="icon-box">
-                            <i class="fas fa-industry"></i>
-                        </div>
-                        <h3>Industrial Solutions</h3>
-                        <p>Custom solutions for manufacturing excellence</p>
-                    </div>
-                </div>
-                <!-- Add more service cards -->
-            </div>
+   <!-- Services Section -->
+<section id="services" class="services-section">
+    <div class="container">
+        <div class="section-header text-center" data-aos="fade-up">
+            <h2>Our Services</h2>
+            <p>Comprehensive solutions for modern industries</p>
         </div>
-    </section>
+        <div class="row g-4">
+            <!-- Assembly Lines -->
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="service-card">
+                    <div class="icon-box">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <h3>Assembly Lines</h3>
+                    <p>State-of-the-art assembly line solutions for efficient manufacturing processes</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
 
-    <!-- Projects Showcase -->
-    <section id="projects" class="projects-section">
-        <div class="container">
-            <div class="section-header text-center" data-aos="fade-up">
-                <h2>Featured Projects</h2>
-                <p>Excellence in execution</p>
-            </div>
-            <div class="project-grid">
-                <!-- Project Card 1 -->
-                <div class="project-card" data-aos="fade-up">
-                    <div class="project-image">
-                        <img src="project1.jpg" alt="Project 1">
+            <!-- Leak Testing Machine -->
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="service-card">
+                    <div class="icon-box">
+                        <i class="fas fa-search"></i>
                     </div>
-                    <div class="project-content">
-                        <h3>Project Title</h3>
-                        <p>Project description goes here</p>
-                        <a href="#" class="btn-view">View Details</a>
-                    </div>
+                    <h3>Leak Testing Machine</h3>
+                    <p>Advanced leak detection and testing solutions for quality assurance</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
                 </div>
-                <!-- Add more project cards -->
+            </div>
+
+            <!-- Difficase Assembly Line -->
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="service-card">
+                    <div class="icon-box">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Difficase Assembly Line</h3>
+                    <p>Specialized assembly solutions for complex manufacturing requirements</p>
+                    <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
+    <!-- Projects Section -->
+<section id="projects" class="projects-section">
+    <div class="container">
+        <div class="section-header text-center" data-aos="fade-up">
+            <h2>Our Project Overview</h2>
+            <p>Watch our latest industrial solutions in action</p>
+        </div>
+        
+        <div class="video-container" data-aos="fade-up">
+            <div class="video-wrapper">
+                <!-- For YouTube Video -->
+                <iframe 
+                    src="./views/Rasco Industries.mp4"
+                    title="Rasco Industries Project Overview"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+
+                <!-- Alternative: For Local Video File -->
+                <!-- <video id="projectVideo" controls>
+                    <source src="path-to-your-video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video> -->
+            </div>
+            
+            <div class="video-description">
+                <h3>Industrial Excellence</h3>
+                <p>Experience our cutting-edge manufacturing processes and innovative solutions that define industry standards.</p>
+                
+                <div class="video-features">
+                    <div class="feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Advanced Assembly Lines</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Precision Testing</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Quality Assurance</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
     <!-- Footer -->
-    <footer class="footer mt-auto">
+   
+    <footer id="contacts" class="footer mt-auto">
         <div class="footer-top">
             <div class="container">
                 <div class="row g-4">
